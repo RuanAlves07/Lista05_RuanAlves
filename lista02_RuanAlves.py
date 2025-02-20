@@ -2,11 +2,11 @@
 
 i = 0
 
-while True:
-    numero = input (int(input("Insira um numero: ")))
+while i < 5:
+    numero =  int(input("Insira um numero: "))
     i += 1
-    if i == 5:
-        print ("Resultado deu: {}".format(numero))
-        break
+print("Ultimo numero é: {}".format(numero))
+
+
 
 
