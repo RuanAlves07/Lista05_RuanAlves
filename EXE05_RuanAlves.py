@@ -22,4 +22,4 @@ while tentativa != 50:
         print("Parabens! Você acertou o numero em {} tentativas!".format(tentativa))
         break
 
-
+print ("Ruan Augusto Alves")

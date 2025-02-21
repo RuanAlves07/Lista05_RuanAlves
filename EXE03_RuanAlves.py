@@ -8,7 +8,7 @@ i = 0
 while i < 5:
     numero = int(input("Insira um numero: "))
     pergunta = input("Deseja inserir outro número? (S/N) ")
-    i += 1
+    
 
     if pergunta == "s":
         total += numero

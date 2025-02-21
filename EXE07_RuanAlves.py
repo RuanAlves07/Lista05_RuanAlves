@@ -9,12 +9,14 @@ i = 0
 
 while i < 1:
     numero = int(input("Insira um valor: (0 para finalizar) "))
-    if numero == 0:
-        print("Numeros inseridos: {}".format(numero))
-        break
+
     if numero in lista_numeros:
         lista_numeros.index(numero)
         print("Já inserido! Porfavor, inserir outro valor.")
+    if numero == 0:
+        print("Numeros inseridos: {}".format(lista_numeros))
+        break
     else:
         lista_numeros.append(numero)
-    
+
+print ("Ruan Augusto Alves")
