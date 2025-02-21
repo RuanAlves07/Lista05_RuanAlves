@@ -7,6 +7,4 @@ while i < 5:
     i += 1
 print("Ultimo numero é: {}".format(numero))
 
-
-
-
+print ("Ruan Augusto Alves")
