@@ -13,6 +13,7 @@ while i < 1:
     if numero in lista_numeros:
         lista_numeros.index(numero)
         print("Já inserido! Porfavor, inserir outro valor.")
+        lista_numeros.remove(numero)
     if numero == 0:
         print("Numeros inseridos: {}".format(lista_numeros))
         break
